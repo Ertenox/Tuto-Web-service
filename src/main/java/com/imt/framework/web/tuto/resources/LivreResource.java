@@ -7,11 +7,13 @@ import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.Response;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Optional;
 
 @Path("/books")
+@Component
 public class LivreResource {
 
     @Autowired
