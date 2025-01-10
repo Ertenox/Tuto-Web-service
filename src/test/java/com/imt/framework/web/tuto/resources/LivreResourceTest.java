@@ -77,6 +77,6 @@ public class LivreResourceTest {
 
         livreResource.deleteBook(1);
 
-        verify(livreRepository, times(2)).deleteById(1);
+        verify(livreRepository, times(1)).deleteById(1);
     }
 }
